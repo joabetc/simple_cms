@@ -12,4 +12,6 @@ class AdminUser < ApplicationRecord
   # def last_name=(value)
   #   @last_name = value
   # end
+
+  has_and_belongs_to_many :pages
 end
